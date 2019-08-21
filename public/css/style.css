@@ -1,0 +1,140 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    background: rgb(3, 143, 189);
+    color: white;
+    padding: 1.2em;
+}
+h1{
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
+    font-size: 2.3rem;
+}
+span{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    display:block;
+    text-align: right;
+}
+.links{
+    margin: .2em 0;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.link{
+    display: inline-block;
+    padding: .5em .9em;
+    color: #ffffff;
+    border-radius: .5em;
+}
+.link:hover{
+    background: #ffffff;
+    color: rgb(3, 143, 189);
+}
+.conatiner-img img{
+    width: 50%;
+    height: 70vh;
+    display: inline-block;
+    margin: 2em auto;
+    border-radius: 2em;
+    margin-left: 5em;
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.6);
+    min-width: 300px;
+    border: 2px solid #ffffff
+}
+
+.main-footer{
+    margin-top: .5em;
+    color: #ffffff;
+    background-color: rgb(3, 143, 189);
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+   
+}
+.main-footer h2{
+ font-weight: lighter;
+ text-shadow: 3px 1px 2px black;
+}
+
+/*this is error message for 404 page*/
+.errorMessage{
+   font-size: 1.3rem;
+   padding: .5em;
+   text-align: center;
+   text-transform: capitalize;
+   text-shadow: 4px 4px 3px #191818;
+}
+
+/* getting user data throungh user form */
+.user-forms{
+    margin-top: 1em;
+    padding: 1em;
+}
+.form-input > label{
+    font-size: 1.5rem;
+    padding: .5em;
+    margin-right: .3em;
+}
+.form-input > input{
+    display: block;
+    width: 80%;
+    font-size:1.1rem;
+    padding: .3em;
+    margin: .5em;
+    border: 0;
+    border: 2px solid rgb(11, 166, 218);
+    border-bottom: 2px solid rgb(3, 143, 189);
+    color: rgb(6, 124, 163);
+    
+}
+.btn{
+    border: none;
+    padding: .5em .8em;
+    font-size: 1.2rem;
+    margin-left: .5em;
+    margin-top: 1em;
+    border: 1px solid rgb(3, 143, 189);
+    color: rgb(3, 143, 189);
+    background: #ffffff;
+    transition: all ease-in-out .2s;
+
+}
+.btn:hover{
+    background: rgb(3, 143, 189);
+    color: #ffffff;
+    box-shadow: 2px 2px 3px black;
+}
+
+/* ui affect classes */
+.user-attentation > div{
+    width: 80%;
+    font-size:1.1rem;
+    padding: .3em;
+    margin: auto;
+    margin-bottom: .5em;
+    text-align: center;
+    box-shadow: 2px 2px 3px black;
+    color: #ffffff;
+}
+.fail{
+    background-color: red;
+}
+.success{
+    background-color: green;
+}
+
+.output > div{
+    margin: auto;
+    width: 80%;
+    padding: 1em;
+    color: #ffffff;
+    background: rgb(3, 143, 189);
+    font-size: 1.4rem;
+    margin-top: 1em;
+    text-align: center;
+}
